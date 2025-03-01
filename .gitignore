@@ -1,0 +1,40 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar archivos de configuración local
+*.local
+
+# Ignorar archivos de logs
+*.log
+logs/
+
+# Ignorar archivos de depuración
+*.pid
+*.seed
+*.pid.lock
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de cobertura
+coverage/
+
+# Ignorar archivos de compilación (si usas TypeScript o Babel)
+dist/
+build/
+
+# Ignorar archivos de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de sistema
+.DS_Store
